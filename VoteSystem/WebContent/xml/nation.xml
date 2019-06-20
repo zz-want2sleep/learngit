@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+<national name="中国">
+<province name="湖南省">
+<city>长沙市</city>
+<city>常德市</city>
+<city>株洲市</city>
+</province>
+
+<province name="湖北省">
+<city>武汉市</city>
+<city>宜昌市</city>
+<city>黄冈市</city>
+</province>
+
+<province name="台湾省">
+<city>台北市</city>
+<city>高雄市</city>
+<city>新竹市</city>
+</province>
+</national>
+
+<national name="Americ">
+<province name="Alabama">
+<city>Birmingham</city>
+<city>Montgomery</city>
+<city>Mobile</city>
+</province>
+
+<province name="Alaska">
+<city>Anchorage</city>
+<city>Fairbanks</city>
+<city>Juneau</city>
+</province>
+
+<province name="Arizona">
+<city>Phoenix</city>
+<city>Tucson</city>
+<city>Mesa</city>
+</province>
+</national>
+
+<national name="日本">
+<province name="神奈川">
+<city>横滨</city>
+<city>中华街</city>
+<city>山下公园</city>
+</province>
+
+<province name="本州">
+<city>名古屋</city>
+<city>神户</city>
+</province>
+
+<province name="京都">
+<city>京都市</city>
+<city>平安神宫</city>
+<city>金阁寺</city>
+</province>
+</national>
+</data>
