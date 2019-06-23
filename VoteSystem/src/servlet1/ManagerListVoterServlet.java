@@ -33,14 +33,6 @@ public class ManagerListVoterServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		doPost(request,response);
-	}
-
-	/**
-	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		String method = request.getParameter("method");  
 		  String path = "ManagerListVoterServlet?method=listVoter";
 		  boolean redirect = false;
@@ -74,6 +66,14 @@ public class ManagerListVoterServlet extends HttpServlet {
 	    	  response.sendRedirect(path);
 	      }else{	request.getRequestDispatcher(path).forward(request,response);
 		  }
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+	doGet(request, response);
 	}
 }
 

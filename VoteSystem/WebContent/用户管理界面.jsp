@@ -36,7 +36,7 @@
 //ResultSet rs=(ResultSet)request.getAttribute("rs1");
 ResultSet rs=(ResultSet)session.getAttribute("rs1");
 String name=(String)session.getAttribute("loginName");
-rs.absolute(1);
+rs.first();
 do{
 	if(name.equals(rs.getString("name"))){
  %>

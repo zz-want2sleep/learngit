@@ -5,7 +5,7 @@
     <title>managerListProject</title>	
     <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
     <meta http-equiv="description" content="this is my page">
-    <meta http-equiv="content-type" content="text/html; charset=gb2312">    
+    <meta http-equiv="content-type" content="text/html; utf-8">    
     <!--<link rel="stylesheet" type="text/css" href="./styles.css">-->
     <style type="text/css"><!--.STYLE1 {font-size: 12px}--> </style>
 </head>
